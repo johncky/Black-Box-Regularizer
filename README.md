@@ -16,7 +16,7 @@ Number of train observations = 100, Number of test observations = 500. Best Para
 ## Basic Usage
 ```python
 # See code comments for detailed tuning parameters
-blackbox_tuner(model, X_train, y_train, reg_method='dropout') 
-blackbox_tuner(model, X_train, y_train, reg_method='noiseaddition')
-blackbox_tuner(model, X_train, y_train, reg_method='robust')
+trained_model = blackbox_tuner(model, X_train, y_train, reg_method='dropout') 
+trained_model = blackbox_tuner(model, X_train, y_train, reg_method='noiseaddition')
+trained_model = blackbox_tuner(model, X_train, y_train, reg_method='robust')
 ```
